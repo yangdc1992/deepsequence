@@ -1,0 +1,25 @@
+{
+    "model": "bert",
+    "n_fine_tune_layers": 10,
+
+    "vocab_pad": "PAD",
+    "vocab_unk": "UNK",
+    "max_sent_len": 200,
+
+    "use_dict": true, 
+    "dict_embedding_dim": 10,
+     
+    "dropout": 0.5, 
+     
+    "fc_dim": 100, 
+    "use_crf": true, 
+
+    "batch_size": 10, 
+    "max_train_epoch": 10, 
+    
+    "early_stop": 3, 
+    
+    "continue_previous_training": false,
+    "bert_path": "https://tfhub.dev/google/bert_cased_L-12_H-768_A-12/1",
+    "data_dir": "/mnt/nas/DCYANG/Project/deepsequence/examples/data"
+}

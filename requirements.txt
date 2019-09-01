@@ -1,0 +1,5 @@
+# Dev/Deployment
+#tensorflow
+keras==2.2.4
+numpy
+scikit-learn

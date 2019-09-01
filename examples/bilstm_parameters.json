@@ -1,0 +1,40 @@
+{
+    "model": "bilstm",
+    
+    "vocab_pad": "PAD",
+    "vocab_unk": "UNK",
+    "max_sent_len": 1000,
+    "max_word_len": 24,
+
+    "word_embedding_dim": 100,
+    "use_pretrain_embedding": true, 
+
+    "use_char": true,
+    "char_embedding_dim": 30, 
+    "char_feature": "cnn",
+    "n_gram_filter_sizes": [1, 2, 3, 4, 5],
+    "n_gram_filter_nums": [5, 10, 20, 30, 35],
+    "char_lstm_size": 50,
+
+    "use_pos": true, 
+    "conll_pos_index": 1,
+    "pos_embedding_dim": 30,
+
+    "use_dict": true, 
+    "dict_embedding_dim": 10,
+     
+    "dropout": 0.5, 
+     
+    "main_lstm_size": 100, 
+    "fc_dim": 100, 
+    "use_crf": true, 
+    "optimizer": "adam", 
+
+    "batch_size": 50, 
+    "max_train_epoch": 80, 
+    
+    "early_stop": 80, 
+    
+    "continue_previous_training": false,
+    "data_dir": "/mnt/nas/DCYANG/Project/deepsequence/examples/data"
+}

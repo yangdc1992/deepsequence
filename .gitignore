@@ -1,0 +1,51 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# pycharm
+.idea/
+.idea
+
+# vscode
+.vscode/
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+dist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+# Cookiecutter
+output/
+
+# data fold
+data/*
+examples/data/glove.6B.100d.txt
+examples/data/model/*
+examples/data/bert/*
+examples/train.log
