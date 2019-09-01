@@ -1,7 +1,7 @@
 deepsequence
 ===============================
 
-version number: 1.0.0
+version number: 1.0.1
 author: Decheng Yang
 
 Overview
